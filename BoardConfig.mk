@@ -41,6 +41,9 @@ VENDOR_SECURITY_PATCH := 2019-05-05
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # TWRP Support
 ifeq ($(BUILD_TWRP),true)
 include $(DEVICE_PATH)/twrp.mk
