@@ -48,3 +48,7 @@ endif
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
+
+# Vendor init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_tissot
+TARGET_RECOVERY_DEVICE_MODULES := libinit_tissot
