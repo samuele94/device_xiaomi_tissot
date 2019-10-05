@@ -1,20 +1,20 @@
 [
  {
    "remote": "evo-devices",
-   "repository": "device_xiaomi_tissot",
-   "target_path": "device/xiaomi/tissot",
-   "branch": "pie"
+   "repository": "device_xiaomi_msm8953-common",
+   "target_path": "device/xiaomi/msm8953-common",
+   "branch": "ten"
  },
  {
    "remote": "evo-devices",
    "repository": "proprietary_vendor_xiaomi_new",
    "target_path": "vendor/xiaomi",
-   "branch": "pie"
+   "branch": "ten"
  },
  {
    "remote": "evo-devices",
    "repository": "kernel_xiaomi_msm8953",
    "target_path": "kernel/xiaomi/msm8953",
-   "branch": "pie"
+   "branch": "ten"
  }
 ]
