@@ -68,6 +68,13 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Google Camera
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/privapp-permissions-gcam.xml:system/product/etc/permissions/privapp-permissions-gcam.xml
+
+PRODUCT_PACKAGES += \
+    GoogleCamera
+
 # Properties
 -include device/xiaomi/tissot/prop.mk
 
@@ -98,7 +105,3 @@ PRODUCT_PACKAGES_DEBUG += \
 # Verity
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
-
-# Pixel 2 Camera
-PRODUCT_PACKAGES += \
-    GCam
