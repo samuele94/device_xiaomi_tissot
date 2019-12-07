@@ -14,4 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_tissot.mk
+    $(LOCAL_DIR)/lineage_tissot.mk
+
