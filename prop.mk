@@ -11,6 +11,4 @@ vendor.camera.aux.packageblacklist=com.google.android.GoogleCamera,com.discord \
 vendor.camera.hal1.packagelist=com.whatsapp \
 persist.camera.dual.camera=0 \
 persist.camera.eis.enable=1
-# Disable privapp
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.control_privapp_permissions=disable
+
