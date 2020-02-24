@@ -25,6 +25,7 @@ $(call inherit-product, device/xiaomi/tissot/device.mk)
 $(call inherit-product, vendor/colt/config/common.mk)
 $(call inherit-product, vendor/colt/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080x1920
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
 PRODUCT_NAME := colt_tissot
