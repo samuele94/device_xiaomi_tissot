@@ -14,5 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tissot.mk
+    $(LOCAL_DIR)/colt_tissot.mk
 

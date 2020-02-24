@@ -18,15 +18,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from mido device
+# Inherit from tissot device
 $(call inherit-product, device/xiaomi/tissot/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
+# Inherit some common ColtOS stuff.
+$(call inherit-product, vendor/colt/config/common.mk)
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080x1920
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
-PRODUCT_NAME := lineage_tissot
+PRODUCT_NAME := colt_tissot
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A1
